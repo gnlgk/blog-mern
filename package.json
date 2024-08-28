@@ -1,0 +1,23 @@
+{
+  "name": "blog-mern",
+  "version": "1.0.0",
+  "description": "약어 'MERN'은 MongoDB, Express, React, Node.js를 의미합니다. 각 구성 요소는 특정한 역할을 하며, 함께 사용하면 서버사이드와 클라이언트사이드를 모두 자바스크립트로 작업하였습니다.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
+}
